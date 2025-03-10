@@ -5907,6 +5907,16 @@ td.visible-print {
   -webkit-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .col-xs-12 {
+        width: 100%;
+    }
+}
 
 /* Media Queries for Mobile Adjustments */
 @media (max-width: 768px) {
