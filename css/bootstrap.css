@@ -5917,5 +5917,53 @@ td.visible-print {
         width: 100%;
     }
 }
+/* Adjust Button Sizes */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+/* Improve Icon Visibility */
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Enhance Text Readability */
+body, p, a {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Media Queries for Mobile Adjustments */
+@media (max-width: 768px) {
+    button {
+        padding: 14px 24px;
+        font-size: 18px;
+    }
+
+    .icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    body, p, a {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
 
 
