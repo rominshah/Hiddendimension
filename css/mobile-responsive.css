@@ -1,0 +1,174 @@
+/* Mobile-first responsive styles */
+@media screen and (max-width: 768px) {
+
+  /* Increase base font size for better readability */
+  html {
+    font-size: 16px;
+  }
+
+  /* Header and Navigation */
+  .navbar {
+    padding: 15px 0;
+  }
+
+  .navbar-brand {
+    font-size: 15px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 12px 15px;
+  }
+
+  /* Main content sections */
+  h1,
+  .h1 {
+    font-size: 36px !important;
+    line-height: 1.2;
+  }
+
+  h2,
+  .h2 {
+    font-size: 30px !important;
+    line-height: 1.3;
+  }
+
+  h3,
+  .h3 {
+    font-size: 24px !important;
+    line-height: 1.4;
+  }
+
+  p,
+  .body-text {
+    font-size: 16px !important;
+    line-height: 1.6;
+  }
+
+  /* Buttons and interactive elements */
+  .btn {
+    font-size: 16px;
+    padding: 12px 24px;
+    min-height: 44px; /* Minimum touch target size */
+  }
+
+  /* Sections padding */
+  section {
+    padding: 60px 0;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Portfolio items */
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+
+  /* Contact form elements */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 40px 0;
+  }
+
+  footer p {
+    font-size: 14px !important;
+  }
+
+  /* Image scaling */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Title-specific adjustments */
+  .title, 
+  h1.title,
+  .header-title {
+    font-size: 28px !important;
+    line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 10px 0;
+  }
+
+  /* Ensure container has proper padding */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Additional rules for very small devices */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 18px;
+  }
+
+  h1,
+  .h1 {
+    font-size: 32px !important;
+  }
+
+  h2,
+  .h2 {
+    font-size: 26px !important;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Increase spacing for better touch targets */
+  .navbar-nav .nav-link {
+    padding: 15px;
+    margin: 5px 0;
+  }
+
+  /* Adjust grid items for single column */
+  .col-sm-6,
+  .col-md-4,
+  .col-lg-3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .title, 
+  h1.title,
+  .header-title {
+    font-size: 24px !important;
+    line-height: 1.3;
+    padding: 0 10px;
+  }
+
+  /* Adjust header spacing */
+  header {
+    padding: 15px 0;
+  }
+}
+
+/* Ensure proper scaling on landscape orientation */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .navbar-collapse {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  .title, 
+  h1.title,
+  .header-title {
+    font-size: 26px !important;
+    max-width: 100%;
+    margin: 15px auto;
+  }
+}
